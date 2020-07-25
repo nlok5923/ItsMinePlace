@@ -1,0 +1,15 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-image: url("FrontPage.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}

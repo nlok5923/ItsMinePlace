@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.compo
+{
+    display: flexbox;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    margin-left: calc(35vw);
+}
+h1
+{
+    font-size: 30px;
+    color: white;
+    font-family: "montserrat";
+    text-align: center;
+    margin-top: 7vh;
+
+    
+}
+.wave {
+
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+  .proImage
+  {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      position: relative;
+      margin-left:20%;
+      margin-top: 3vh;
+      border: 10px solid;
+  }
+  .proName
+  {
+      margin-top: 0;
+  }
+ p{
+     color: white;
+     font-size: 20px;
+     font-family: "montserrat";
+ }
