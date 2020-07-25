@@ -20,11 +20,9 @@
 
 }
 .btn {
-	/* box-shadow:inset 0px -3px 7px 0px #29bbff; */
-	/* background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%); */
+	
 	background-color:#0a3d62;
-	/* border-radius:3px; */
-    /* border:1px solid #0b0e07; */
+
     font-family: "montserrat";
 	display:inline-block;
 	cursor:pointer;
@@ -52,6 +50,7 @@
 
 .extra2
 {
+    
     border-bottom-right-radius: 40px;
 }
     
