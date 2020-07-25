@@ -5,8 +5,9 @@ import "./About.css"
 const About =()=>{
     return(
         <div className="compo">
-            {/* <h1>Hey !!</h1> */}
-             <h1>Hey <span class="wave">&#128075;</span></h1> 
+       
+              {/* <h1>Hey <span className="wave">&#128075;</span></h1>   */}
+              <h1>Hey !!</h1>
             <img className="proImage" src="Images/demo.jpg" alt=""></img>
             <h1 className="proName">Nitanshu Lokhande</h1>
             <p>&emsp;&emsp;&emsp;&emsp;Student at IIIT Vadodara</p>
