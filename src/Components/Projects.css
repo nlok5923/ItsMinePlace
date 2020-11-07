@@ -1,65 +1,104 @@
-.proj__head{
-    margin-top:20%;
-    font-family: "montserrat";
-    font-size:60px;
-    text-align:center;    
+.proj__head {
+  margin-top: 20%;
+  font-family: 'montserrat';
+  font-size: 60px;
+  text-align: center;
 }
-.projects{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    margin-top: 7%;
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7%;
 }
 .project {
-    height:50vh;
-    width:70%;
-    margin-right:15%;
-    margin-left:15%;
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
+    height: 55vh;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.project img{
-    width: 40%;
-    height: 250px;
+
+.project img {
+  width: 40%;
+  height: 70%;
+  border-radius: 20px;
 }
+
 .project__head {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
 }
-.project__head h1{
-    margin-top: 1%;
-    font-size:30px;
+.project__head h1 {
+  margin-top: 1%;
+  font-size: 30px;
 }
-.project__head p{
-    margin-top: 6%;
-    width: 80%;
+.project__head p {
+  margin-top: 6%;
+  width: 80%;
 }
-.view__proj{
-    background: none;
-    border: 2px solid black;
-    padding: 5px 50px;
-    font-family: "montserrat";
-    font-size:20px;
-    color: white;
-    border-radius: 20px;
-    margin-left: 10%;
+@media only screen and (max-width: 600px) {
+    .project{
+        width: 100%;
+        margin:5%;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .project img{
+        height: 50%;
+    }
+    .project__head{
+        font-size: 40px;
+    }
+    .project__head h1{
+        font-size: 20px;
+    }
+    .projects{
+        margin-top: 30%;
+    }
+    .rev{
+        flex-direction: column-reverse;
+    }
+  }
+.view__proj {
+  background: none;
+  border: 2px solid black;
+  padding: 5px 50px;
+  font-family: 'montserrat';
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  margin-left: 10%;
 }
-.proj__repo{
-    background: none;
-    border: 2px solid black;
-    padding: 5px 50px;
-    font-family: "montserrat";
-    font-size:20px;
-    color: white;
-    border-radius: 20px;
-    margin-left: 2%;
-    float:right;
-    margin-right: 10%;
+.view__proj:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
-.btn__usr{
-    margin-top: 10%;
-    width: 100%;
+.proj__repo {
+  background: none;
+  border: 2px solid black;
+  padding: 5px 50px;
+  font-family: 'montserrat';
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  margin-left: 2%;
+  float: right;
+  margin-right: 10%;
+}
+.proj__repo:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.btn__usr {
+  margin-top: 10%;
+  width: 100%;
 }

@@ -4,13 +4,13 @@ import './About.css';
 const About = () => {
   return (
     <div className="compo">
-      {/* <h1>Hey <span className="wave">&#128075;</span></h1>   */}
       <h1>Hey !!</h1>
-      <img className="proImage" src="Images/demo.jpg" alt=""></img>
+      <img className="proImage" src="./Images/earth.jpg" alt=""></img>
       <h1 className="proName">Nitanshu Lokhande</h1>
-      <p>&emsp;&emsp;&emsp;&emsp;Student at IIIT Vadodara</p>
+      <p>Student at IIIT Vadodara</p>
       <br />
-      <br />
+      <br />\
+      <div class="social__links">
       <a
         href="https://www.facebook.com/nitanshu.lokhande.9/"
         class="fa fa-facebook"
@@ -29,6 +29,7 @@ const About = () => {
       >
         &emsp;
       </a>
+      </div>
     </div>
   );
 };
